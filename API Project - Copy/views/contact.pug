@@ -1,0 +1,18 @@
+extends layout 
+
+block layout-content 
+  img(src="/images/dog1.png", alt="Image for website", class="contactimg") 
+  //- h1.page-title Recipes and more from Jinal Patel
+  h2.taste Contact us to buy dogs... 
+  h1= "Add your category request!"
+    form(action="/new_movie" method="POST")
+    p Name:
+      input(type="text" name="name" placeholder="")
+    p CellNo.:
+      input(type="phone" name="year" placeholder="")
+    p Enter Your message here:
+    textarea(name="text", cols="30", rows="10") 
+    input(type="submit")
+    
+
+  

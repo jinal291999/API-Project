@@ -1,0 +1,37 @@
+extends layout
+block layout-content
+  ul 
+    each res in dogs
+        div.cls1 
+          #pic 
+            img(src=`${res.img}`, alt="",width="300")
+          #detailsRes
+              h2 #{res.breed}
+              p origin: #{res.origin}
+              p weight: #{res.weight}
+              p height: #{res.height}
+        
+              a(href=`${res.url}`) For more information
+              br        
+  //- h1.page-title Recipes and more from Jinal Patel
+  //- h2 Northern Inuit Dog 
+  //- div.container1
+  //-   img(src="/images/northern.jpg", alt="Image for website",class="images")
+  //-   p.content Despite their name, the Northern Inuit Dog is a breed originating in Great Britain. It was bred in order to obtain a dog with the appearance of a wolf, but with the character of domestic dogs. Despite not being an officially recognized breed by the International Canine Federation, their popularity is increasing. This is, in a large part, due to their appearance in the very popular television show Game of Thrones.
+    
+  //- h2.taste2 Icelandic Sheepdog 
+  //- div.container2
+  //-   img(src="/images/icelandic.jpg", alt="Image for website",class="images") 
+  //-   p.content The Icelandic Sheepdog is a breed of dog native to Iceland, where it is considered a popular national symbol. Due to its hardiness, agility and intelligence, it has been used to herd cattle and sheep throughout history. However, in addition to its role as a shepherd and protector of the herds, it is also considered an excellent companion dog due to its cheerful and friendly nature.
+    
+  //- h2 Canary Mastiff (Presa Canario) 
+  //- div.container3
+  //-   img(src="/images/canary.jpg", alt="Image for website",class="images")
+  //-   p.content The Canary Mastiff, also know as the Presa Canario and previously as the Dogo Canario, is a Mastiff type dog breed from the Canary Islands. These dogs descend from the old majorero dogs that existed in the archipelago during pre-Hispanic times (i.e. before the 14th century). At that time, these great island dogs were used by its natives as guardians, protectors and food. With the arrival of Europeans to the islands and particularly with their subsequent conquest, majoreros began to be used as auxiliary dogs for butchers. Miscegenation also began to take place with the arrival of other European dogs.
+   
+  //- h2 Shetland Sheepdog 
+  //- div.container4
+  //-   img(src="/images/shetland1.jpg", alt="Image for website",class="images")
+  //-   p.content The Shetland Sheepdog, affectionately known as the Sheltie, is a small, but elegant dog breed. Similar in appearance to a rough Collie, their small size doesn't prevent them from being a tireless worker. Currently the Shetland sheepdog is more commonly found as a companion animal due to their beauty and size.If you are thinking of adopting a Shetland Sheepdog, keep reading AnimalWised to find out everything you need to know about their characteristics, health, care, diet and more.
+    
+  

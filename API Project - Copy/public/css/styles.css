@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: cornsilk;
+}
+.page-title {
+  color:black;
+  font-weight:bold;
+}
+#main-navigation ul li{
+  float: right;
+  /* flex-direction:row; */
+  list-style-type:none;
+  /* justify-content: space-between; */
+  align-items: right;
+  margin-right: 2em;
+  padding-right: 1em;
+  padding-left: 1em;
+  /* display: inline; */
+}
+/* .container1 img{
+    width: 25%;
+    padding-right: 2em;
+}
+.container2 img{
+  width: 25%;
+  padding-right: 2em;
+}
+.container3 img{
+  width: 25%;
+  padding-right: 2em;
+}
+.container4 img{
+  width: 25%;
+  padding-right: 2em;
+} */
+.puppy{
+  width: 100%;
+}
+/* #site-name{
+    text-align: center;
+} */
+a{
+  /* float: left; */
+  background-color: pink;
+}
+/* h2{
+  padding-top: 2em;
+} */
+.logo{
+  font-family: 'Abril Fatface', cursive;
+}
+/* .container1{
+  display: flex;
+}
+.container2{
+  display: flex;
+}
+.container3{
+  display: flex;
+}
+.container4{
+  display: flex;
+} */
+/* p .content{
+  margin: 72px;
+} */
+.copy{
+  padding-left: 41em;
+}
+/* #detailsRes{
+  float: right;
+} */
+.cls1{
+  display: flex;
+  padding-top: 50px;
+}
+#detailsRes{
+  padding-left: 50px;
+}
+
+
+/* Contact Page */
+.contactimg{
+  width: 100%;
+}

@@ -1,0 +1,9 @@
+extends layout 
+block layout-content 
+  ul 
+    each res in New
+      div
+          #details
+              h3 #{res.title}
+              a(href=`${res.url}`) Explore daily news of dogs from here!
+  

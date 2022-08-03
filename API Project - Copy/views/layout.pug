@@ -1,0 +1,30 @@
+doctype html 
+html 
+  head 
+    meta(charset="utf-8")
+    //print the title variable in the <title> element
+    //results in: <title>{title} | Test website</title>
+    title #{title} | Dog website
+    link(rel="stylesheet", href="/css/styles.css")
+  body
+    header#header
+      .header-content 
+        h2#site-name 
+          //there should be no space between the element
+          //name and attribute parentheses
+          a.logo(href="/") DOGS
+        nav(id="main-navigation", aria-label="Main navigation")
+          ul 
+            li 
+              a(href="/") Home 
+            li 
+              a(href="/category") Categories  
+            li 
+              a(href="/news") News  
+            li 
+              a(href="/contact") Contact  
+    main#main 
+      //layout-content is like a placeholder (content will be inserted here)
+      block layout-content 
+    footer#footer 
+      p.copy &copy; Copyright Dog, 2022.
